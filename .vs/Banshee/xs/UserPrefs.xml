@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{0B4B2CED-9D2B-47D4-B479-4813113B9D26}|Default">
+  <MonoDevelop.Ide.ItemProperties.Banshee PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Banshee/Startup.cs">
+    <Files>
+      <File FileName="Banshee/Startup.cs" Line="31" Column="49" />
+      <File FileName="Banshee/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="Banshee/Models/ClientVisits.cs" Line="16" Column="30" />
+      <File FileName="Banshee/Controllers/CustomersController.cs" Line="161" Column="14" />
+      <File FileName="Banshee/Controllers/ClientVisitsController.cs" Line="140" Column="34" />
+      <File FileName="Banshee/Models/Customers.cs" Line="7" Column="6" />
+      <File FileName="Banshee/Models/ModelContext.cs" Line="8" Column="58" />
+      <File FileName="Banshee/appsettings.json" Line="9" Column="74" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Banshee" expanded="True">
+            <Node name="Banshee" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Banshee/Controllers/CustomersController.cs" line="136" offsetX="-1" offsetY="-1" expression="customers" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

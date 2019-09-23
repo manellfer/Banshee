@@ -1,0 +1,14 @@
+/Users/manuelsmac/Projects/Banshee/Banshee/bin/Debug/netcoreapp2.2/Banshee.deps.json
+/Users/manuelsmac/Projects/Banshee/Banshee/bin/Debug/netcoreapp2.2/Banshee.runtimeconfig.json
+/Users/manuelsmac/Projects/Banshee/Banshee/bin/Debug/netcoreapp2.2/Banshee.runtimeconfig.dev.json
+/Users/manuelsmac/Projects/Banshee/Banshee/bin/Debug/netcoreapp2.2/Banshee.dll
+/Users/manuelsmac/Projects/Banshee/Banshee/bin/Debug/netcoreapp2.2/Banshee.pdb
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.csprojAssemblyReference.cache
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.csproj.CoreCompileInputs.cache
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.RazorAssemblyInfo.cache
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.RazorAssemblyInfo.cs
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.AssemblyInfoInputs.cache
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.AssemblyInfo.cs
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.RazorTargetAssemblyInfo.cache
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.dll
+/Users/manuelsmac/Projects/Banshee/Banshee/obj/Debug/netcoreapp2.2/Banshee.pdb
