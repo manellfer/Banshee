@@ -17,7 +17,7 @@ namespace Banshee.Controllers
         public CustomersController(ModelContext context)
         {
             _context = context;
-            if (_context.Customers.Count() == 0)
+            /*if (_context.Customers.Count() == 0)
             {
                 _context.Customers.Add(new Customers
                 {
@@ -68,7 +68,7 @@ namespace Banshee.Controllers
                 });
 
                 _context.SaveChanges();
-            }
+            }*/
         }
 
         [HttpGet]
@@ -84,7 +84,7 @@ namespace Banshee.Controllers
             }
         }
 
-        [HttpGet("{ClienteID}")]
+        [HttpGet("{ClientID}")]
         public async Task<ActionResult<Customers>> getCustomers(int clientID)
         {
             try
@@ -123,7 +123,7 @@ namespace Banshee.Controllers
         {
             try
             {
-                if (clientID != customers.ClienteID)
+                if (clientID != customers.ClientID)
                 {
                     return BadRequest();
                 }

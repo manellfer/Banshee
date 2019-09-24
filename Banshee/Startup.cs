@@ -27,10 +27,10 @@ namespace Banshee
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
+            //if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
                 services.AddDbContext<ModelContext>(options =>
                         options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
-            else
+            //else
                 //services.AddDbContext<ModelContext>(options =>
                         //options.UseSqlite("Data Source=localdatabase.db"));
 

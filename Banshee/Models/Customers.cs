@@ -6,7 +6,7 @@ namespace Banshee.Models
     public class Customers
     {
         [Key]
-        public int ClienteID { get; set; }
+        public int ClientID { get; set; }
         public string Nit { get; set; }
         public string FullName { get; set; }
         public string Address { get; set; }

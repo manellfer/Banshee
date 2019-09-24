@@ -17,9 +17,9 @@ namespace Banshee.Controllers
         public ClientVisitsController(ModelContext context)
         {
             _context = context;
-            if (_context.ClientVisits.Count() == 0)
+            /*if (_context.ClientVisits.Count() == 0)
             {
-                _context.ClientVisits.Add(new ClientVisits
+                context.ClientVisits.Add(new ClientVisits
                 {
                     ClientVisitsID = 1,
                     Date = DateTime.Now,
@@ -50,8 +50,8 @@ namespace Banshee.Controllers
                 });
 
                 _context.SaveChanges();
-            }
-        }
+        }*/
+    }
 
 
         [HttpGet]
@@ -68,12 +68,12 @@ namespace Banshee.Controllers
             
         }
 
-        [HttpGet("{ClienteID}")]
-        public async Task<ActionResult<ClientVisits>> getClientVisits(int clientVistidID)
+        [HttpGet("{VistidID}")]
+        public async Task<ActionResult<ClientVisits>> getClientVisits(int vistidID)
         {
             try
             {
-                var customers = await _context.ClientVisits.FindAsync(clientVistidID);
+                var customers = await _context.ClientVisits.FindAsync(vistidID);
                 if (customers == null)
                 {
                     return NotFound();
@@ -102,12 +102,12 @@ namespace Banshee.Controllers
             }
         }
 
-        [HttpPut("{ClientVisitID}")]
-        public async Task<ActionResult<ClientVisits>> putClientVisits(int clientVisitID, ClientVisits clientVisits)
+        [HttpPut("{visitID}")]
+        public async Task<ActionResult<ClientVisits>> putClientVisits(int visitID, ClientVisits clientVisits)
         {
             try
             {
-                if (clientVisitID != clientVisits.ClientVisitsID)
+                if (visitID != clientVisits.VisitID)
                 {
                     return BadRequest();
                 }
@@ -123,12 +123,12 @@ namespace Banshee.Controllers
             }
         }
 
-        [HttpDelete("{ClientVisitID}")]
-        public async Task<IActionResult> deleteClientVisits(int clientVisitID)
+        [HttpDelete("{visitID}")]
+        public async Task<IActionResult> deleteClientVisits(int visitID)
         {
             try
             {
-                var clientVisits = await _context.ClientVisits.FindAsync(clientVisitID);
+                var clientVisits = await _context.ClientVisits.FindAsync(visitID);
                 if (clientVisits == null)
                 {
                     return NotFound();
